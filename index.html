@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <div id="contenedor">
+        <div id="hijo1">
+            <h1>Payment form example</h1>
+        </div>
+        <div id="hijo2">
+            <div>
+                <p>Some fields are missing</p>
+            </div>
+            <div>
+                <fieldset style="display: inline-flex;">
+
+                <p>Card #</p> 
+                <input type="number" name="tarjeta">
+                
+                <p>CVC #</p> 
+                <input type="number" name="cvc">
+                
+                <p>Amount</p> 
+                $<input type="number" name="cantidad">
+
+                </fieldset>
+            </div>
+        </div>
+        <div id="hijo3">
+            <div>
+                <fieldset>
+                
+                    <p>First Name: </p><input type="text" name="nombre">
+                
+                    <p>City: </p><input type="text" name="ciudad">
+                
+                    <p>We accept:</p><input type="checkbox" name="sescribirse">
+                
+                  </fieldset>
+            </div>
+            <div>
+                <fieldset>
+                
+                    <p>Last Name: </p><input type="text" name="nombre">
+
+                    <p>State</p>
+                    <select name="menu">
+                        <option value="0">Pick a state</option>
+                        <option value="1">España</option>
+                        <option value="2">Alemania</option>
+                        <option value="3">USA</option>
+                      </select>
+                
+                    
+                
+                    <p>Message</p>
+                    <textarea name="Message" id="" cols="30" rows="10"></textarea>
+                  </fieldset>
+            </div>
+        </div>
+        <div id="hijo4">
+            <input type="reset" value="Cancel">
+            <input type="submit" value="Send">
+
+        </div>
+    </div>
+    
+</body>
+</html>
